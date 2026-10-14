@@ -28,6 +28,7 @@ endef
 src = $(addprefix src/,\
   libs/storage.c \
   main.c \
+  renderWindow.c \
 )
 
 # Platform selection: set PLATFORM=simulator when building/running on host simulator
